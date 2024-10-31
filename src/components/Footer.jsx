@@ -12,12 +12,15 @@ const Footer = () => {
         <div className="w-full md:w-1/2 lg:w-1/3">
           <div className="h-[460px] mt-10 mb-16 shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13044.305524121615!2d69.22257488393805!3d41.31916884309184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8bcd3b798b93%3A0x8012ce8c311c2666!2sHanyuban%20o%CA%BBquv%20markazi!5e0!3m2!1sen!2s!4v1724894763853!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.5257776390886!2d69.2346090752018!3d41.31917900022467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8bcd3b798b93%3A0x8012ce8c311c2666!2sHanyuban%20o%CA%BBquv%20markazi!5e0!3m2!1sen!2s!4v1730379719592!5m2!1sen!2s"
+              
               height="460"
               style="border:0;"
               allowfullscreen=""
-              className="w-full"
-              loading="lazy"></iframe>
+              loading="lazy"
+              ></iframe>
+
+           
           </div>
           <img
             src="map-placeholder.png"
@@ -29,6 +32,5 @@ const Footer = () => {
     </div>
   );
 };
-
 
 export default Footer;

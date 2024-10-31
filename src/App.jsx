@@ -7,6 +7,7 @@ import Cost from "./components/Cost";
 import RegistrationPage from "./components/Register";
 import GalleryPage from "./components/Galary";
 import Footer from "./components/Footer";
+import MapComponent from "./components/Map";
 // import Team from "./components/Team";
 
 
@@ -21,7 +22,8 @@ const App = () => {
      <Cost/>
      <RegistrationPage/>
      <GalleryPage/>
-     <Footer/>
+     {/* <Footer/> */}
+     {/* <MapComponent/> */}
     </div>
   );
 };
